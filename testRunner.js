@@ -16,10 +16,14 @@ async function runSingleTest(config) {
     status: 'passed',
     steps: [],
     errors: [],
-    apiCalls: []
+    apiCalls: [],
+    duration: 0
   };
 
+  const startTime = Date.now();
+
   try {
+    // Launch browser
     browser = await (config.browser === 'firefox'
       ? firefox.launch()
       : chromium.launch());
@@ -43,36 +47,61 @@ async function runSingleTest(config) {
     });
 
     // =========================
-    // STEP 1: LANDING
+    // STEP 1: LOAD LANDING
     // =========================
     await page.goto('https://lexpal.in', { waitUntil: 'networkidle' });
 
-    result.steps.push('Landing loaded');
+    result.steps.push('Landing page loaded');
 
     // =========================
-    // STEP 2: SWITCH TO CLIENT
+    // STEP 2: HANDLE MOBILE VS DESKTOP
     // =========================
-    const clientToggle = page.locator('button:has-text("Clients")');
+    const mobileMenuBtn = page.locator('button[aria-label="Toggle menu"]');
 
-    await clientToggle.waitFor({ timeout: 5000 });
-    await clientToggle.click();
+    if (await mobileMenuBtn.isVisible()) {
+      // 📱 MOBILE FLOW
+      result.steps.push('Mobile layout detected');
 
-    result.steps.push('Switched to client mode');
+      await mobileMenuBtn.click();
+
+      // Wait for menu to open
+      const clientBtn = page.locator('button:has-text("For Clients")');
+      await clientBtn.waitFor({ timeout: 5000 });
+
+      await clientBtn.click();
+      result.steps.push('Switched to client (mobile)');
+
+      const loginBtn = page.locator('button:has-text("Log In")');
+      await loginBtn.waitFor({ timeout: 5000 });
+
+      await loginBtn.click();
+      result.steps.push('Clicked login (mobile)');
+
+    } else {
+      // 💻 DESKTOP FLOW
+      result.steps.push('Desktop layout detected');
+
+      const clientToggle = page.locator('button:has-text("Clients")');
+
+      await clientToggle.waitFor({ timeout: 5000 });
+      await clientToggle.click();
+      result.steps.push('Switched to client (desktop)');
+
+      const loginBtn = page.locator('button:has-text("Log In")').first();
+      await loginBtn.waitFor({ timeout: 5000 });
+
+      await loginBtn.click();
+      result.steps.push('Clicked login (desktop)');
+    }
 
     // =========================
-    // STEP 3: CLICK LOGIN
+    // STEP 3: WAIT FOR LOGIN PAGE
     // =========================
-    const loginBtn = page.locator('button:has-text("Log In")').first();
-
-    await loginBtn.click();
-
-    // Wait for navigation to /Login
     await page.waitForURL('**/Login', { timeout: 10000 });
-
-    result.steps.push('Navigated to client login page');
+    result.steps.push('Navigated to login page');
 
     // =========================
-    // STEP 4: LOGIN FORM
+    // STEP 4: FILL LOGIN FORM
     // =========================
     await page.waitForSelector('input[name="email"]');
 
@@ -86,21 +115,25 @@ async function runSingleTest(config) {
     // =========================
     await page.click('button[type="submit"]');
 
-    // Wait for dashboard redirect
+    // Wait for dashboard
     await page.waitForURL('**/Dashboard', { timeout: 15000 });
-
     result.steps.push('Login successful → Dashboard');
 
     // =========================
     // STEP 6: VERIFY DASHBOARD
     // =========================
-    const dashboardCheck = await page.locator('text=Featured Experts').isVisible();
+    const dashboardVisible = await page.locator('text=Featured Experts').isVisible();
 
-    if (!dashboardCheck) {
+    if (!dashboardVisible) {
       throw new Error('Dashboard UI not visible');
     }
 
     result.steps.push('Dashboard verified');
+
+    // =========================
+    // DONE
+    // =========================
+    result.duration = Date.now() - startTime;
 
     await browser.close();
 
@@ -109,20 +142,28 @@ async function runSingleTest(config) {
 
     result.status = 'failed';
     result.errors.push(err.message);
+    result.duration = Date.now() - startTime;
   }
 
   return result;
 }
 
 async function runFullTest() {
+  console.log(`
+====================================
+ LEXPAL CROSS-DEVICE TEST ENGINE
+====================================
+`);
+
   const results = await Promise.all(
     DEVICE_CONFIGS.map(cfg => runSingleTest(cfg))
   );
 
-  const path = `./reports/lexpal-report-${Date.now()}.json`;
-  fs.writeFileSync(path, JSON.stringify(results, null, 2));
+  const reportPath = `./reports/lexpal-report-${Date.now()}.json`;
 
-  console.log("Report saved:", path);
+  fs.writeFileSync(reportPath, JSON.stringify(results, null, 2));
+
+  console.log("Report saved:", reportPath);
 
   return results;
 }
