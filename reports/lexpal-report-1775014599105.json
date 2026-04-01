@@ -1,0 +1,1111 @@
+[
+  {
+    "device": "Desktop Chrome",
+    "browser": "chromium",
+    "status": "failed",
+    "steps": [
+      "Landing page loaded",
+      "Clicked Login"
+    ],
+    "apiCalls": [
+      {
+        "url": "https://lexpal.in/",
+        "status": 200,
+        "time": -1
+      },
+      {
+        "url": "https://lexpal.in/_next/static/chunks/a3f0a71fe3a2370a.css",
+        "status": 200,
+        "time": -1
+      },
+      {
+        "url": "https://lexpal.in/_next/static/media/797e433ab948586e-s.p.dbea232f.woff2",
+        "status": 200,
+        "time": -1
+      },
+      {
+        "url": "https://lexpal.in/_next/static/chunks/a8f34660527f49d1.js",
+        "status": 200,
+        "time": -1
+      },
+      {
+        "url": "https://lexpal.in/_next/static/media/caa3a2e1cccd8315-s.p.853070df.woff2",
+        "status": 200,
+        "time": -1
+      },
+      {
+        "url": "https://lexpal.in/_next/static/chunks/cb4d43514b6cc22e.js",
+        "status": 200,
+        "time": -1
+      },
+      {
+        "url": "https://lexpal.in/_next/static/chunks/8447de4417cfff86.js",
+        "status": 200,
+        "time": -1
+      },
+      {
+        "url": "https://lexpal.in/_next/static/chunks/48e7fdf1e610276d.js",
+        "status": 200,
+        "time": -1
+      },
+      {
+        "url": "https://lexpal.in/_next/static/chunks/98cf195818f78ffa.js",
+        "status": 200,
+        "time": -1
+      },
+      {
+        "url": "https://lexpal.in/_next/static/chunks/db319e19d8711802.js",
+        "status": 200,
+        "time": -1
+      },
+      {
+        "url": "https://lexpal.in/_next/static/chunks/e6ca2a66ae9b7aae.js",
+        "status": 200,
+        "time": -1
+      },
+      {
+        "url": "https://lexpal.in/_next/static/chunks/turbopack-7cd3ffa692077cc3.js",
+        "status": 200,
+        "time": -1
+      },
+      {
+        "url": "https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined",
+        "status": 200,
+        "time": -1
+      },
+      {
+        "url": "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap",
+        "status": 200,
+        "time": -1
+      },
+      {
+        "url": "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&display=swap",
+        "status": 200,
+        "time": -1
+      },
+      {
+        "url": "https://lexpal.in/_next/static/chunks/98d7d9f2a4f2b80e.js",
+        "status": 200,
+        "time": -1
+      },
+      {
+        "url": "https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200",
+        "status": 200,
+        "time": -1
+      },
+      {
+        "url": "https://lexpal.in/_next/static/chunks/ec39899e724ba042.css",
+        "status": 200,
+        "time": -1
+      },
+      {
+        "url": "https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap",
+        "status": 200,
+        "time": -1
+      },
+      {
+        "url": "https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&display=swap",
+        "status": 200,
+        "time": -1
+      },
+      {
+        "url": "https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7W0Q5nw.woff2",
+        "status": 200,
+        "time": -1
+      },
+      {
+        "url": "https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa25L7W0Q5n-wU.woff2",
+        "status": 200,
+        "time": -1
+      },
+      {
+        "url": "https://lexpal.in/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F1.443e9b13.jpeg&w=1920&q=75",
+        "status": 200,
+        "time": -1
+      },
+      {
+        "url": "https://fonts.gstatic.com/s/materialsymbolsoutlined/v322/kJEPBvYX7BgnkSrUwT8OhrdQw4oELdPIeeII9v6oDMzBwG-RpA6RzaxHMPdY40KH8nGzv3fzfVJO1USv9ls.woff2",
+        "status": 200,
+        "time": -1
+      },
+      {
+        "url": "https://fonts.gstatic.com/s/materialsymbolsoutlined/v322/kJEhBvYX7BgnkSrUwT8OhrdQw4oELdPIeeII9v6oFsLjBuVY.woff2",
+        "status": 200,
+        "time": -1
+      },
+      {
+        "url": "https://lexpal.in/Lawyer-Login?_rsc=vusbg",
+        "status": 200,
+        "time": -1
+      },
+      {
+        "url": "https://lexpal.in/_next/static/chunks/91c07c459832357e.js",
+        "status": 200,
+        "time": -1
+      },
+      {
+        "url": "https://lexpal.in/community?_rsc=1sg2k",
+        "status": 200,
+        "time": -1
+      },
+      {
+        "url": "https://lexpal.in/privacy?_rsc=1sg2k",
+        "status": 200,
+        "time": -1
+      },
+      {
+        "url": "https://lexpal.in/security?_rsc=1sg2k",
+        "status": 200,
+        "time": -1
+      },
+      {
+        "url": "https://lexpal.in/_next/static/chunks/6ce57ebc555bc36f.css",
+        "status": 200,
+        "time": -1
+      },
+      {
+        "url": "https://lexpal.in/blog?_rsc=1sg2k",
+        "status": 200,
+        "time": -1
+      },
+      {
+        "url": "https://lexpal.in/careers?_rsc=1sg2k",
+        "status": 200,
+        "time": -1
+      },
+      {
+        "url": "https://lexpal.in/about?_rsc=1sg2k",
+        "status": 200,
+        "time": -1
+      },
+      {
+        "url": "https://lexpal.in/pricing?_rsc=1sg2k",
+        "status": 200,
+        "time": -1
+      },
+      {
+        "url": "https://lexpal.in/terms?_rsc=1sg2k",
+        "status": 200,
+        "time": -1
+      },
+      {
+        "url": "https://lexpal.in/?_rsc=1sg2k",
+        "status": 200,
+        "time": -1
+      },
+      {
+        "url": "https://lexpal.in/security?_rsc=1k5kb",
+        "status": 200,
+        "time": -1
+      },
+      {
+        "url": "https://lexpal.in/security?_rsc=cur6o",
+        "status": 200,
+        "time": -1
+      },
+      {
+        "url": "https://lexpal.in/security?_rsc=ggsrm",
+        "status": 200,
+        "time": -1
+      },
+      {
+        "url": "https://lexpal.in/security?_rsc=1ceve",
+        "status": 200,
+        "time": -1
+      },
+      {
+        "url": "https://lexpal.in/impact?_rsc=1sg2k",
+        "status": 200,
+        "time": -1
+      },
+      {
+        "url": "https://lexpal.in/terms?_rsc=cur6o",
+        "status": 200,
+        "time": -1
+      },
+      {
+        "url": "https://lexpal.in/help?_rsc=1sg2k",
+        "status": 200,
+        "time": -1
+      },
+      {
+        "url": "https://lexpal.in/_next/static/chunks/b141a7648572ab85.js",
+        "status": 200,
+        "time": -1
+      },
+      {
+        "url": "https://lexpal.in/terms?_rsc=czr1f",
+        "status": 200,
+        "time": -1
+      },
+      {
+        "url": "https://lexpal.in/terms?_rsc=1cs0n",
+        "status": 200,
+        "time": -1
+      },
+      {
+        "url": "https://lexpal.in/privacy?_rsc=1cnnc",
+        "status": 200,
+        "time": -1
+      },
+      {
+        "url": "https://lexpal.in/community?_rsc=cur6o",
+        "status": 200,
+        "time": -1
+      },
+      {
+        "url": "https://lexpal.in/_next/static/chunks/f0f4f31eb8885c06.js",
+        "status": 200,
+        "time": -1
+      },
+      {
+        "url": "https://lexpal.in/community?_rsc=1knps",
+        "status": 200,
+        "time": -1
+      },
+      {
+        "url": "https://lexpal.in/_next/static/chunks/3bc396611840caf3.js",
+        "status": 200,
+        "time": -1
+      },
+      {
+        "url": "https://lexpal.in/community?_rsc=1fiy4",
+        "status": 200,
+        "time": -1
+      },
+      {
+        "url": "https://lexpal.in/privacy?_rsc=1k11v",
+        "status": 200,
+        "time": -1
+      },
+      {
+        "url": "https://lexpal.in/blog?_rsc=14t5e",
+        "status": 200,
+        "time": -1
+      },
+      {
+        "url": "https://lexpal.in/blog?_rsc=1kos4",
+        "status": 200,
+        "time": -1
+      },
+      {
+        "url": "https://lexpal.in/help?_rsc=cur6o",
+        "status": 200,
+        "time": -1
+      },
+      {
+        "url": "https://lexpal.in/help?_rsc=1rnow",
+        "status": 200,
+        "time": -1
+      },
+      {
+        "url": "https://lexpal.in/help?_rsc=1bv1c",
+        "status": 200,
+        "time": -1
+      },
+      {
+        "url": "https://lexpal.in/privacy?_rsc=cur6o",
+        "status": 200,
+        "time": -1
+      },
+      {
+        "url": "https://lexpal.in/impact?_rsc=1s89c",
+        "status": 200,
+        "time": -1
+      },
+      {
+        "url": "https://lexpal.in/_next/static/chunks/0d9eb7d480b2db00.js",
+        "status": 200,
+        "time": -1
+      },
+      {
+        "url": "https://lexpal.in/blog?_rsc=cur6o",
+        "status": 200,
+        "time": -1
+      },
+      {
+        "url": "https://lexpal.in/impact?_rsc=hycep",
+        "status": 200,
+        "time": -1
+      },
+      {
+        "url": "https://lexpal.in/impact?_rsc=cur6o",
+        "status": 200,
+        "time": -1
+      },
+      {
+        "url": "https://lexpal.in/careers?_rsc=e2sn6",
+        "status": 200,
+        "time": -1
+      },
+      {
+        "url": "https://lexpal.in/about?_rsc=cur6o",
+        "status": 200,
+        "time": -1
+      },
+      {
+        "url": "https://lexpal.in/about?_rsc=1evtj",
+        "status": 200,
+        "time": -1
+      },
+      {
+        "url": "https://lexpal.in/pricing?_rsc=cur6o",
+        "status": 200,
+        "time": -1
+      },
+      {
+        "url": "https://lexpal.in/about?_rsc=2tpjl",
+        "status": 200,
+        "time": -1
+      },
+      {
+        "url": "https://lexpal.in/pricing?_rsc=4um47",
+        "status": 200,
+        "time": -1
+      },
+      {
+        "url": "https://lexpal.in/careers?_rsc=cur6o",
+        "status": 200,
+        "time": -1
+      },
+      {
+        "url": "https://lexpal.in/careers?_rsc=14klz",
+        "status": 200,
+        "time": -1
+      },
+      {
+        "url": "https://lexpal.in/?_rsc=cur6o",
+        "status": 200,
+        "time": -1
+      },
+      {
+        "url": "https://lexpal.in/?_rsc=1kdlm",
+        "status": 200,
+        "time": -1
+      },
+      {
+        "url": "https://lexpal.in/pricing?_rsc=sa4xc",
+        "status": 200,
+        "time": -1
+      }
+    ],
+    "errors": [
+      "page.click: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('button:has-text(\"Sign In\")')\u001b[22m\n"
+    ]
+  },
+  {
+    "device": "Desktop Firefox",
+    "browser": "firefox",
+    "status": "failed",
+    "steps": [
+      "Landing page loaded",
+      "Clicked Login"
+    ],
+    "apiCalls": [
+      {
+        "url": "https://lexpal.in/",
+        "status": 200,
+        "time": -1
+      },
+      {
+        "url": "https://lexpal.in/_next/static/chunks/ec39899e724ba042.css",
+        "status": 200,
+        "time": -1
+      },
+      {
+        "url": "https://lexpal.in/_next/static/chunks/a3f0a71fe3a2370a.css",
+        "status": 200,
+        "time": -1
+      },
+      {
+        "url": "https://lexpal.in/_next/static/chunks/turbopack-7cd3ffa692077cc3.js",
+        "status": 200,
+        "time": -1
+      },
+      {
+        "url": "https://lexpal.in/_next/static/chunks/cb4d43514b6cc22e.js",
+        "status": 200,
+        "time": -1
+      },
+      {
+        "url": "https://lexpal.in/_next/static/chunks/db319e19d8711802.js",
+        "status": 200,
+        "time": -1
+      },
+      {
+        "url": "https://lexpal.in/_next/static/chunks/48e7fdf1e610276d.js",
+        "status": 200,
+        "time": -1
+      },
+      {
+        "url": "https://lexpal.in/_next/static/chunks/98d7d9f2a4f2b80e.js",
+        "status": 200,
+        "time": -1
+      },
+      {
+        "url": "https://lexpal.in/_next/static/chunks/a8f34660527f49d1.js",
+        "status": 200,
+        "time": -1
+      },
+      {
+        "url": "https://lexpal.in/_next/static/media/caa3a2e1cccd8315-s.p.853070df.woff2",
+        "status": 200,
+        "time": -1
+      },
+      {
+        "url": "https://lexpal.in/_next/static/chunks/8447de4417cfff86.js",
+        "status": 200,
+        "time": -1
+      },
+      {
+        "url": "https://lexpal.in/_next/static/media/797e433ab948586e-s.p.dbea232f.woff2",
+        "status": 200,
+        "time": -1
+      },
+      {
+        "url": "https://lexpal.in/_next/static/chunks/98cf195818f78ffa.js",
+        "status": 200,
+        "time": -1
+      },
+      {
+        "url": "https://lexpal.in/_next/static/chunks/e6ca2a66ae9b7aae.js",
+        "status": 200,
+        "time": -1
+      },
+      {
+        "url": "https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap",
+        "status": 200,
+        "time": -1
+      },
+      {
+        "url": "https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined",
+        "status": 200,
+        "time": -1
+      },
+      {
+        "url": "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap",
+        "status": 200,
+        "time": -1
+      },
+      {
+        "url": "https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200",
+        "status": 200,
+        "time": -1
+      },
+      {
+        "url": "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&display=swap",
+        "status": 200,
+        "time": -1
+      },
+      {
+        "url": "https://lexpal.in/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F1.443e9b13.jpeg&w=1920&q=75",
+        "status": 200,
+        "time": -1
+      },
+      {
+        "url": "https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&display=swap",
+        "status": 200,
+        "time": -1
+      },
+      {
+        "url": "https://fonts.gstatic.com/s/materialsymbolsoutlined/v322/kJEPBvYX7BgnkSrUwT8OhrdQw4oELdPIeeII9v6oDMzBwG-RpA6RzaxHMPdY40KH8nGzv3fzfVJO1USv9ls.woff2",
+        "status": 200,
+        "time": -1
+      },
+      {
+        "url": "https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7W0Q5nw.woff2",
+        "status": 200,
+        "time": -1
+      },
+      {
+        "url": "https://fonts.gstatic.com/s/materialsymbolsoutlined/v322/kJEhBvYX7BgnkSrUwT8OhrdQw4oELdPIeeII9v6oFsLjBuVY.woff2",
+        "status": 200,
+        "time": -1
+      },
+      {
+        "url": "https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa25L7W0Q5n-wU.woff2",
+        "status": 200,
+        "time": -1
+      },
+      {
+        "url": "https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7W0Q5nw.woff2",
+        "status": 200,
+        "time": -1
+      },
+      {
+        "url": "https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7W0Q5nw.woff2",
+        "status": 200,
+        "time": -1
+      },
+      {
+        "url": "https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7W0Q5nw.woff2",
+        "status": 200,
+        "time": -1
+      },
+      {
+        "url": "https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7W0Q5nw.woff2",
+        "status": 200,
+        "time": -1
+      },
+      {
+        "url": "https://lexpal.in/icon.svg",
+        "status": 404,
+        "time": -1
+      },
+      {
+        "url": "https://lexpal.in/apple-icon.png",
+        "status": 404,
+        "time": -1
+      },
+      {
+        "url": "https://lexpal.in/Lawyer-Login?_rsc=vusbg",
+        "status": 200,
+        "time": -1
+      },
+      {
+        "url": "https://lexpal.in/_next/static/chunks/91c07c459832357e.js",
+        "status": 200,
+        "time": -1
+      },
+      {
+        "url": "https://lexpal.in/_next/static/chunks/91c07c459832357e.js",
+        "status": 200,
+        "time": -1
+      },
+      {
+        "url": "https://lexpal.in/privacy?_rsc=1sg2k",
+        "status": 200,
+        "time": -1
+      },
+      {
+        "url": "https://lexpal.in/terms?_rsc=1sg2k",
+        "status": 200,
+        "time": -1
+      },
+      {
+        "url": "https://lexpal.in/community?_rsc=1sg2k",
+        "status": 200,
+        "time": -1
+      },
+      {
+        "url": "https://lexpal.in/security?_rsc=1sg2k",
+        "status": 200,
+        "time": -1
+      },
+      {
+        "url": "https://lexpal.in/_next/static/chunks/6ce57ebc555bc36f.css",
+        "status": 200,
+        "time": -1
+      },
+      {
+        "url": "https://lexpal.in/blog?_rsc=1sg2k",
+        "status": 200,
+        "time": -1
+      },
+      {
+        "url": "https://lexpal.in/help?_rsc=1sg2k",
+        "status": 200,
+        "time": -1
+      },
+      {
+        "url": "https://lexpal.in/impact?_rsc=1sg2k",
+        "status": 200,
+        "time": -1
+      },
+      {
+        "url": "https://lexpal.in/careers?_rsc=1sg2k",
+        "status": 200,
+        "time": -1
+      },
+      {
+        "url": "https://lexpal.in/about?_rsc=1sg2k",
+        "status": 200,
+        "time": -1
+      },
+      {
+        "url": "https://lexpal.in/?_rsc=1sg2k",
+        "status": 200,
+        "time": -1
+      },
+      {
+        "url": "https://lexpal.in/security?_rsc=cur6o",
+        "status": 200,
+        "time": -1
+      },
+      {
+        "url": "https://lexpal.in/security?_rsc=1k5kb",
+        "status": 200,
+        "time": -1
+      },
+      {
+        "url": "https://lexpal.in/pricing?_rsc=1sg2k",
+        "status": 200,
+        "time": -1
+      },
+      {
+        "url": "https://lexpal.in/security?_rsc=ggsrm",
+        "status": 200,
+        "time": -1
+      },
+      {
+        "url": "https://lexpal.in/security?_rsc=1ceve",
+        "status": 200,
+        "time": -1
+      },
+      {
+        "url": "https://lexpal.in/terms?_rsc=cur6o",
+        "status": 200,
+        "time": -1
+      },
+      {
+        "url": "https://lexpal.in/_next/static/chunks/b141a7648572ab85.js",
+        "status": 200,
+        "time": -1
+      },
+      {
+        "url": "https://lexpal.in/terms?_rsc=1cs0n",
+        "status": 200,
+        "time": -1
+      },
+      {
+        "url": "https://lexpal.in/privacy?_rsc=cur6o",
+        "status": 200,
+        "time": -1
+      },
+      {
+        "url": "https://lexpal.in/terms?_rsc=czr1f",
+        "status": 200,
+        "time": -1
+      },
+      {
+        "url": "https://lexpal.in/privacy?_rsc=1k11v",
+        "status": 200,
+        "time": -1
+      },
+      {
+        "url": "https://lexpal.in/community?_rsc=cur6o",
+        "status": 200,
+        "time": -1
+      },
+      {
+        "url": "https://lexpal.in/privacy?_rsc=1cnnc",
+        "status": 200,
+        "time": -1
+      },
+      {
+        "url": "https://lexpal.in/_next/static/chunks/f0f4f31eb8885c06.js",
+        "status": 200,
+        "time": -1
+      },
+      {
+        "url": "https://lexpal.in/community?_rsc=1knps",
+        "status": 200,
+        "time": -1
+      },
+      {
+        "url": "https://lexpal.in/community?_rsc=1fiy4",
+        "status": 200,
+        "time": -1
+      },
+      {
+        "url": "https://lexpal.in/_next/static/chunks/3bc396611840caf3.js",
+        "status": 200,
+        "time": -1
+      },
+      {
+        "url": "https://lexpal.in/blog?_rsc=cur6o",
+        "status": 200,
+        "time": -1
+      },
+      {
+        "url": "https://lexpal.in/blog?_rsc=14t5e",
+        "status": 200,
+        "time": -1
+      },
+      {
+        "url": "https://lexpal.in/blog?_rsc=1kos4",
+        "status": 200,
+        "time": -1
+      },
+      {
+        "url": "https://lexpal.in/_next/static/chunks/0d9eb7d480b2db00.js",
+        "status": 200,
+        "time": -1
+      },
+      {
+        "url": "https://lexpal.in/help?_rsc=cur6o",
+        "status": 200,
+        "time": -1
+      },
+      {
+        "url": "https://lexpal.in/impact?_rsc=cur6o",
+        "status": 200,
+        "time": -1
+      },
+      {
+        "url": "https://lexpal.in/help?_rsc=1rnow",
+        "status": 200,
+        "time": -1
+      },
+      {
+        "url": "https://lexpal.in/help?_rsc=1bv1c",
+        "status": 200,
+        "time": -1
+      },
+      {
+        "url": "https://lexpal.in/impact?_rsc=1s89c",
+        "status": 200,
+        "time": -1
+      },
+      {
+        "url": "https://lexpal.in/careers?_rsc=cur6o",
+        "status": 200,
+        "time": -1
+      },
+      {
+        "url": "https://lexpal.in/impact?_rsc=hycep",
+        "status": 200,
+        "time": -1
+      },
+      {
+        "url": "https://lexpal.in/careers?_rsc=14klz",
+        "status": 200,
+        "time": -1
+      },
+      {
+        "url": "https://lexpal.in/careers?_rsc=e2sn6",
+        "status": 200,
+        "time": -1
+      },
+      {
+        "url": "https://lexpal.in/about?_rsc=cur6o",
+        "status": 200,
+        "time": -1
+      },
+      {
+        "url": "https://lexpal.in/about?_rsc=1evtj",
+        "status": 200,
+        "time": -1
+      },
+      {
+        "url": "https://lexpal.in/about?_rsc=2tpjl",
+        "status": 200,
+        "time": -1
+      },
+      {
+        "url": "https://lexpal.in/pricing?_rsc=cur6o",
+        "status": 200,
+        "time": -1
+      },
+      {
+        "url": "https://lexpal.in/pricing?_rsc=4um47",
+        "status": 200,
+        "time": -1
+      },
+      {
+        "url": "https://lexpal.in/pricing?_rsc=sa4xc",
+        "status": 200,
+        "time": -1
+      },
+      {
+        "url": "https://lexpal.in/?_rsc=cur6o",
+        "status": 200,
+        "time": -1
+      },
+      {
+        "url": "https://lexpal.in/?_rsc=1kdlm",
+        "status": 200,
+        "time": -1
+      },
+      {
+        "url": "https://lexpal.in/apple-icon.png",
+        "status": 404,
+        "time": -1
+      },
+      {
+        "url": "https://lexpal.in/icon.svg",
+        "status": 404,
+        "time": -1
+      }
+    ],
+    "errors": [
+      "page.click: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('button:has-text(\"Sign In\")')\u001b[22m\n"
+    ]
+  },
+  {
+    "device": "iPhone 13",
+    "browser": "chromium",
+    "status": "failed",
+    "steps": [
+      "Landing page loaded"
+    ],
+    "apiCalls": [
+      {
+        "url": "https://lexpal.in/",
+        "status": 200,
+        "time": -1
+      },
+      {
+        "url": "https://lexpal.in/_next/static/chunks/ec39899e724ba042.css",
+        "status": 200,
+        "time": -1
+      },
+      {
+        "url": "https://lexpal.in/_next/static/media/797e433ab948586e-s.p.dbea232f.woff2",
+        "status": 200,
+        "time": -1
+      },
+      {
+        "url": "https://lexpal.in/_next/static/chunks/98d7d9f2a4f2b80e.js",
+        "status": 200,
+        "time": -1
+      },
+      {
+        "url": "https://lexpal.in/_next/static/chunks/98cf195818f78ffa.js",
+        "status": 200,
+        "time": -1
+      },
+      {
+        "url": "https://lexpal.in/_next/static/chunks/48e7fdf1e610276d.js",
+        "status": 200,
+        "time": -1
+      },
+      {
+        "url": "https://lexpal.in/_next/static/chunks/a8f34660527f49d1.js",
+        "status": 200,
+        "time": -1
+      },
+      {
+        "url": "https://lexpal.in/_next/static/media/caa3a2e1cccd8315-s.p.853070df.woff2",
+        "status": 200,
+        "time": -1
+      },
+      {
+        "url": "https://lexpal.in/_next/static/chunks/cb4d43514b6cc22e.js",
+        "status": 200,
+        "time": -1
+      },
+      {
+        "url": "https://lexpal.in/_next/static/chunks/db319e19d8711802.js",
+        "status": 200,
+        "time": -1
+      },
+      {
+        "url": "https://lexpal.in/_next/static/chunks/a3f0a71fe3a2370a.css",
+        "status": 200,
+        "time": -1
+      },
+      {
+        "url": "https://lexpal.in/_next/static/chunks/turbopack-7cd3ffa692077cc3.js",
+        "status": 200,
+        "time": -1
+      },
+      {
+        "url": "https://lexpal.in/_next/static/chunks/e6ca2a66ae9b7aae.js",
+        "status": 200,
+        "time": -1
+      },
+      {
+        "url": "https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200",
+        "status": 200,
+        "time": -1
+      },
+      {
+        "url": "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&display=swap",
+        "status": 200,
+        "time": -1
+      },
+      {
+        "url": "https://lexpal.in/_next/static/chunks/8447de4417cfff86.js",
+        "status": 200,
+        "time": -1
+      },
+      {
+        "url": "https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap",
+        "status": 200,
+        "time": -1
+      },
+      {
+        "url": "https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined",
+        "status": 200,
+        "time": -1
+      },
+      {
+        "url": "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap",
+        "status": 200,
+        "time": -1
+      },
+      {
+        "url": "https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&display=swap",
+        "status": 200,
+        "time": -1
+      },
+      {
+        "url": "https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7W0Q5nw.woff2",
+        "status": 200,
+        "time": -1
+      },
+      {
+        "url": "https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa25L7W0Q5n-wU.woff2",
+        "status": 200,
+        "time": -1
+      },
+      {
+        "url": "https://lexpal.in/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F1.443e9b13.jpeg&w=1200&q=75",
+        "status": 200,
+        "time": -1
+      },
+      {
+        "url": "https://fonts.gstatic.com/s/materialsymbolsoutlined/v322/kJEPBvYX7BgnkSrUwT8OhrdQw4oELdPIeeII9v6oDMzBwG-RpA6RzaxHMPdY40KH8nGzv3fzfVJO1USv9ls.woff2",
+        "status": 200,
+        "time": -1
+      },
+      {
+        "url": "https://fonts.gstatic.com/s/materialsymbolsoutlined/v322/kJEhBvYX7BgnkSrUwT8OhrdQw4oELdPIeeII9v6oFsLjBuVY.woff2",
+        "status": 200,
+        "time": -1
+      }
+    ],
+    "errors": [
+      "locator.click: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('text=Log In').first()\u001b[22m\n\u001b[2m    - locator resolved to <button class=\"page-module__BQnNvq__loginButton\">Log In</button>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not visible\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not visible\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    56 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m       - element is not visible\u001b[22m\n\u001b[2m     - retrying click action\u001b[22m\n\u001b[2m       - waiting 500ms\u001b[22m\n"
+    ]
+  },
+  {
+    "device": "Pixel 5",
+    "browser": "chromium",
+    "status": "failed",
+    "steps": [
+      "Landing page loaded"
+    ],
+    "apiCalls": [
+      {
+        "url": "https://lexpal.in/",
+        "status": 200,
+        "time": -1
+      },
+      {
+        "url": "https://lexpal.in/_next/static/chunks/a3f0a71fe3a2370a.css",
+        "status": 200,
+        "time": -1
+      },
+      {
+        "url": "https://lexpal.in/_next/static/chunks/ec39899e724ba042.css",
+        "status": 200,
+        "time": -1
+      },
+      {
+        "url": "https://lexpal.in/_next/static/chunks/48e7fdf1e610276d.js",
+        "status": 200,
+        "time": -1
+      },
+      {
+        "url": "https://lexpal.in/_next/static/chunks/a8f34660527f49d1.js",
+        "status": 200,
+        "time": -1
+      },
+      {
+        "url": "https://lexpal.in/_next/static/chunks/cb4d43514b6cc22e.js",
+        "status": 200,
+        "time": -1
+      },
+      {
+        "url": "https://lexpal.in/_next/static/chunks/turbopack-7cd3ffa692077cc3.js",
+        "status": 200,
+        "time": -1
+      },
+      {
+        "url": "https://lexpal.in/_next/static/chunks/db319e19d8711802.js",
+        "status": 200,
+        "time": -1
+      },
+      {
+        "url": "https://lexpal.in/_next/static/chunks/8447de4417cfff86.js",
+        "status": 200,
+        "time": -1
+      },
+      {
+        "url": "https://lexpal.in/_next/static/chunks/e6ca2a66ae9b7aae.js",
+        "status": 200,
+        "time": -1
+      },
+      {
+        "url": "https://lexpal.in/_next/static/chunks/98d7d9f2a4f2b80e.js",
+        "status": 200,
+        "time": -1
+      },
+      {
+        "url": "https://lexpal.in/_next/static/chunks/98cf195818f78ffa.js",
+        "status": 200,
+        "time": -1
+      },
+      {
+        "url": "https://lexpal.in/_next/static/media/caa3a2e1cccd8315-s.p.853070df.woff2",
+        "status": 200,
+        "time": -1
+      },
+      {
+        "url": "https://lexpal.in/_next/static/media/797e433ab948586e-s.p.dbea232f.woff2",
+        "status": 200,
+        "time": -1
+      },
+      {
+        "url": "https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap",
+        "status": 200,
+        "time": -1
+      },
+      {
+        "url": "https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined",
+        "status": 200,
+        "time": -1
+      },
+      {
+        "url": "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&display=swap",
+        "status": 200,
+        "time": -1
+      },
+      {
+        "url": "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap",
+        "status": 200,
+        "time": -1
+      },
+      {
+        "url": "https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200",
+        "status": 200,
+        "time": -1
+      },
+      {
+        "url": "https://lexpal.in/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F1.443e9b13.jpeg&w=1200&q=75",
+        "status": 200,
+        "time": -1
+      },
+      {
+        "url": "https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&display=swap",
+        "status": 200,
+        "time": -1
+      },
+      {
+        "url": "https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7W0Q5nw.woff2",
+        "status": 200,
+        "time": -1
+      },
+      {
+        "url": "https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa25L7W0Q5n-wU.woff2",
+        "status": 200,
+        "time": -1
+      },
+      {
+        "url": "https://fonts.gstatic.com/s/materialsymbolsoutlined/v322/kJEPBvYX7BgnkSrUwT8OhrdQw4oELdPIeeII9v6oDMzBwG-RpA6RzaxHMPdY40KH8nGzv3fzfVJO1USv9ls.woff2",
+        "status": 200,
+        "time": -1
+      },
+      {
+        "url": "https://fonts.gstatic.com/s/materialsymbolsoutlined/v322/kJEhBvYX7BgnkSrUwT8OhrdQw4oELdPIeeII9v6oFsLjBuVY.woff2",
+        "status": 200,
+        "time": -1
+      }
+    ],
+    "errors": [
+      "locator.click: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('text=Log In').first()\u001b[22m\n\u001b[2m    - locator resolved to <button class=\"page-module__BQnNvq__loginButton\">Log In</button>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not visible\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not visible\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    56 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m       - element is not visible\u001b[22m\n\u001b[2m     - retrying click action\u001b[22m\n\u001b[2m       - waiting 500ms\u001b[22m\n"
+    ]
+  }
+]

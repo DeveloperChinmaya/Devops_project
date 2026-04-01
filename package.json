@@ -1,0 +1,15 @@
+{
+  "name": "lexpal-test-orchestrator",
+  "version": "1.0.0",
+  "main": "testRunner.js",
+  "scripts": {
+    "test": "node worker.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "playwright": "^1.59.0"
+  }
+}
